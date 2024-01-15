@@ -17,7 +17,7 @@ Flutter es un marco de Google para desarrollar aplicaciones multiplataforma con 
 
 ### ¿Porque Flutter?
 
-Permite crear aplicaciones multiplataforma (Android, iOS, Linux, Mac, Windows, Google Fuchsia y la web) a partir de un único código base.
+Flutter permite crear aplicaciones multiplataforma (Android, iOS, Linux, Mac, Windows, Google Fuchsia y la web) a partir de un único código base.
 
 ### Instalacion del SDK Flutter
 
@@ -38,25 +38,85 @@ Permite crear aplicaciones multiplataforma (Android, iOS, Linux, Mac, Windows, G
    
 ### Actualizacion de la variable de PATH de Windows
 
-1. Presione la tecla **windows + s**
-2. Seleccionar la opcion **Editar Variables de Entorno del Sistema**
+1. Presione la tecla ``windows + s``
+2. Seleccionar la opcion ``Editar Variables de Entorno del Sistema``
 3. Cuando se muestra la ventana **Propiedades del sistema** seleccionar la opcion **Variables de entorno.**
 4. Seleccionar **Path** en variables de usuario y despues seleccionar **Editar**
 5. Cuando se muestra la ventana Editar variable de entorno seleccionar opcion **Nuevo**
-6. Agregar la direccion **C:\flutter_windows_3.13.5-stable\flutter\bin** en el espacio vacio
+6. Agregar la direccion ``C:\flutter_windows_3.13.5-stable\flutter\bin`` en el espacio vacio
 7. Presionar opcion **Aceptar**
 
 ### Comprobar la configuracion de desarrollo
 
-#### Correr comando Flutter doctor
+#### Ejecutar comando ``flutter doctor``
 
 El comando verifica la integridad de todos los componentes necesarios para un entorno de desarrollo Flutter completo en Windows.
+
+1. Abrir terminal con tecla ``windows`` y escribir terminal.
+2. En la terminal escribimos el comando ``flutter doctor``
 
 ## Instalacion de Python
 
 Python es un lenguaje de programación de alto nivel y fácil de leer. Soporta varios estilos de programación y es ampliamente utilizado en desarrollo web, análisis de datos y aprendizaje automático.
 
 - [Python](https://www.python.org/downloads/)
+
+## Instalacion Django
+
+Django es un framework de Python para el desarrollo web. Proporciona herramientas para construir sitios web de manera rápida y segura. Django es versátil y se utiliza en una amplia gama de aplicaciones web.
+
+- [Django](https://www.djangoproject.com/start/)
+
+### Pasos de instalacion 
+1. Instala Python: Django es un framework de Python, por lo que necesitas tener  Python instalado en tu sistema.
+2. Verifica la instalación de Python: Puedes verificar que Python está instalado correctamente escribiendo python en tu terminal
+3. Crea un entorno virtual: Es recomendable instalar Django en un entorno virtual para evitar conflictos con otras bibliotecas de Python en tu sistema. Puedes crear un entorno virtual con el comando ``virtualenv env`` y luego activarlo con el comando ``. env/bin/activate``
+4. Instala Django: Una vez que tu entorno virtual esté activo, puedes instalar Django con el comando pip install Django
+5. Verifica la instalación de Django: Para verificar que Django está instalado correctamente, puedes intentar importarlo en Python con los comandos ``import django`` y ``print(django.get_version())``
+ 
+  
+
+## Instalacion de Postman
+
+Postman es una plataforma de API para crear y usar API. Postman simplifica cada paso del ciclo de vida de la API y agiliza la colaboración para que pueda crear mejores API más rápido.
+
+- [Postman app](https://www.postman.com/downloads/)
+
+
+### Pasos de instalacion 
+1. Descarga Postman: Ve a la página oficial de descargas de Postman. El sitio web te recomendará la versión adecuada para tu sistema operativo.  
+2. Instala Postman: Una vez descargado, abre el archivo y sigue las instrucciones para instalar Postman en tu sistema.
+
+## Instalacion de Docker
+Docker es una plataforma que permite a los desarrolladores construir, compartir y ejecutar aplicaciones en contenedores. Proporciona herramientas para acelerar la entrega de aplicaciones seguras y funciona con todas las herramientas de desarrollo. Docker Desktop ofrece un conjunto de herramientas para construir aplicaciones en cualquier lugar.
+
+- [Docker](https://www.docker.com/get-started/)
+
+### Pasos de instalacion 
+
+1. Visita el sitio web de Docker y descarga el instalador de Docker Desktop
+2. Ejecuta el instalador ``(Docker Desktop Installer.exe)``
+3. Durante la instalación, asegúrate de seleccionar la opción ``Use WSL 2 instead of Hyper-V`` en la página de configuración, dependiendo de tu elección de backend
+4. Sigue las instrucciones del asistente de instalación para autorizar el instalador y proceder con la instalación
+
+## Instalacion de Node.js
+Node.js es un entorno de ejecución de JavaScript que permite desarrollar aplicaciones escalables. Utiliza operaciones de entrada/salida no bloqueantes y una arquitectura asincrónica basada en eventos, lo que permite manejar múltiples conexiones simultáneamente. Sin embargo, no es adecuado para tareas que requieren un uso intensivo de la CPU.
+
+- [Node.js](https://nodejs.org/en)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
