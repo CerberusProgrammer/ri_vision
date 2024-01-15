@@ -1,4 +1,16 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "usernamehw.errorlens",
+    "Tomi.xasnippets",
+    "svelte.svelte-vscode",
+    "johnsoncodehk.volar",
+    "bradlc.vscode-tailwindcss",
+    "Tomi.xasnippets",
+    "PKief.material-icon-theme",
+    "PKief.material-product-icons",
+    "jgclark.vscode-todo-highlight",
+    "zaaack.markdown-editor"
+  ],
   "unwantedRecommendations": []
 }
