@@ -9,6 +9,9 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/CerberusProgrammer/ri_vision',
 			},
+			customCss: [
+				'./src/styles/custom.css'
+			],
 			sidebar: [
 				{
 					label: 'Guias',
