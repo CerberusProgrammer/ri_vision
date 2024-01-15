@@ -5,21 +5,38 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'RI Vision',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/CerberusProgrammer/ri_vision',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Guias',
+					autogenerate: { directory: 'guias' }
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Primeros pasos',
+					autogenerate: { directory: 'primeros-pasos' }
+				},
+				{
+					label: 'RI Compras',
+					autogenerate: { directory: 'ri-compras' }
+				},
+				{
+					label: 'RI Produccion',
+					autogenerate: { directory: 'ri-produccion' }
+				},
+				{
+					label: 'RI Vision',
+					autogenerate: { directory: 'ri-vision' }
+				},
+				{
+					label: 'Base de datos',
+					autogenerate: { directory: 'database' }
+				},
+				{
+					label: 'Referencias',
+					autogenerate: { directory: 'referencias' },
 				},
 			],
 		}),
