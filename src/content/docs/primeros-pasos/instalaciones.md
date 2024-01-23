@@ -49,7 +49,6 @@ Flutter permite crear aplicaciones multiplataforma (Android, iOS, Linux, Mac, Wi
 ### Comprobar la configuracion de desarrollo
 
 #### Ejecutar comando ``flutter doctor``
-
 El comando verifica la integridad de todos los componentes necesarios para un entorno de desarrollo Flutter completo en Windows.
 
 1. Abrir terminal con tecla ``windows`` y escribir terminal.
@@ -103,6 +102,64 @@ Docker es una plataforma que permite a los desarrolladores construir, compartir 
 Node.js es un entorno de ejecución de JavaScript que permite desarrollar aplicaciones escalables. Utiliza operaciones de entrada/salida no bloqueantes y una arquitectura asincrónica basada en eventos, lo que permite manejar múltiples conexiones simultáneamente. Sin embargo, no es adecuado para tareas que requieren un uso intensivo de la CPU.
 
 - [Node.js](https://nodejs.org/en)
+
+## Visual Studio
+Visual Studio es necesario para ejecutar ciertas herramientas que nos facilitan la ejecucion de un proyecto en Flutter y Django.
+
+- [Visual Studio](https://visualstudio.microsoft.com/es/downloads/)
+
+## Astro
+Astro es un web framework que agiliza la creacion de sitios web rapidos y dinamicos.
+
+- [Astro](https://astro.build/)
+
+### Pasos de instalacion de Astro
+
+Prerequisitos
+
+- Node.js v18.14.1 o superior
+- Text editor - Recomendacion VS Code con la extension de Astro
+
+1. Ejecutar en la terminal el siguiente comando ``npm create astro@latest``
+
+2. Iniciar Astro en la terminal con el siguiente comando ``npm run dev``
+
+## Tailwind CSS
+Tailwind CSS es un frameworkde de clases para construir cualquier diseño web.
+
+### Instalacion de Tailwind CSS
+
+Ejecutar los siguientes comandos en la terminal:
+
+1. ``npm install -D tailwindcss``
+2. ``npx tailwindcss init``
+
+
+## DaisyUI
+
+DaisyUI es un plugin para Tailwind CSS que nos permite complementar las clases con componentes ya predefinidos.
+
+- [DaisyUI](https://daisyui.com/)
+
+### Instalacion de DaisyUI
+
+1. Ejecutar en la terminal el comando ``npm i -D daisyui@latest``
+2. instalar la extension del visual studio para tener la configuracion completa.
+
+## React 
+
+React es una biblioteca que permite crear componentes dinamicos para interfaces de usuario de web. 
+
+- [React](https://es.react.dev/)
+
+
+
+
+
+
+
+
+
 
 
 
