@@ -137,7 +137,7 @@ Ejecutar los siguientes comandos en la terminal:
 
 ## DaisyUI
 
-DaisyUI es un plugin para Tailwind CSS que nos permite complementar las clases con componentes ya predefinidos.
+DaisyUI es un plugin para Tailwind CSS que nos permite complementar las clases con **componentes** ya predefinidos.
 
 - [DaisyUI](https://daisyui.com/)
 
@@ -151,6 +151,13 @@ DaisyUI es un plugin para Tailwind CSS que nos permite complementar las clases c
 React es una biblioteca que permite crear componentes dinamicos para interfaces de usuario de web. 
 
 - [React](https://es.react.dev/)
+  
+
+
+
+
+
+
 
 
 
