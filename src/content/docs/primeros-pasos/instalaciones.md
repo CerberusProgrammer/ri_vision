@@ -148,7 +148,7 @@ DaisyUI es un plugin para Tailwind CSS que nos permite complementar las clases c
 
 ## React 
 
-React es una biblioteca que permite crear componentes dinamicos para interfaces de usuario de web. 
+React es una biblioteca que permite crear componentes dinamicos para interfaces de usuario de web.
 
 - [React](https://es.react.dev/)
   

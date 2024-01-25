@@ -12,14 +12,14 @@ Se han identificado diversas áreas de oportunidad, siendo la más destacada la 
 Optimizar el proceso de adquisiciones con el fin de fortalecer la supervisión de los presupuestos departamentales y las solicitudes realizadas, minimizando así la posibilidad de inconvenientes.
 
 ## Herramientas de software 
-> - Django
-> - Python
-> - Flutter
-> - Node.js
-> - Visual Studio 
-> - Visual Studio Code
-> - Postman
-> - Git
+> - [Django](http://localhost:4322/primeros-pasos/instalaciones/#instalacion-django)
+> - [Python](http://localhost:4322/primeros-pasos/instalaciones/#instalacion-de-python)
+> - [Flutter](http://localhost:4322/primeros-pasos/instalaciones/#instalaci%C3%B3n-de-flutter)
+> - [Node.js](http://localhost:4322/primeros-pasos/instalaciones/#instalacion-de-nodejs)
+> - [Visual Studio](http://localhost:4322/primeros-pasos/instalaciones/#visual-studio) 
+> - [Visual Studio Code](http://localhost:4322/primeros-pasos/instalaciones/#instalaci%C3%B3n-de-vs-code)
+> - [Postman](http://localhost:4322/primeros-pasos/instalaciones/#instalacion-de-postman)
+> - [Git]()
 
 ## Ejecucion del proyecto de compras
 
@@ -70,7 +70,6 @@ Para poner en marcha la aplicación RI Compras, es imprescindible contar con una
 1. Ingresar a la URL de la aplicacion
 2. Registrarse en la aplicacion
 3. Esperar a que el administrador asigne al usuario un departamento.
-
 
 
 
